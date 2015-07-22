@@ -10,6 +10,11 @@
 
 @interface FirstViewController : UIViewController
 
+@property (strong, nonatomic) UIView *originView;
+@property (strong, nonatomic) UIView *finishView;
+
+
+
 @property (strong, nonatomic) IBOutlet UIImageView *imageView1;
 @property (strong, nonatomic) IBOutlet UIImageView *imageView2;
 @property (strong, nonatomic) IBOutlet UIImageView *imageView3;

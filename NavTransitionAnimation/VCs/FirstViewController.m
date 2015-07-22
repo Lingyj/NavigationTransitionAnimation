@@ -11,10 +11,7 @@
 #import "SecondViewController.h"
 
 @interface FirstViewController () <UINavigationControllerDelegate>
-{
-    UIView *_originView;
-    UIView *_finishView;
-}
+
 @end
 
 @implementation FirstViewController
